@@ -1,0 +1,11 @@
+n = int(input("ingrese su numero: "))             
+print(end="\t")
+for i in range(1,n+1):
+    print(i,"\t",end=" ")
+
+print()
+for a in range(1,n+1):
+    print()
+    print(a,"\t",end=" ")
+    for m in range(1,n+1):
+        print(a*m,"\t",end=" ")
